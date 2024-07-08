@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "thirdApp",
-    "slug": "thirdApp",
+    "name": "Recipe Book",
+    "slug": "RecipeBook",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,16 +13,24 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
+      "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.rahulthakur.RecipeBook"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a2318d48-bcd7-4f7a-8d07-aac5b63e1b90"
+      }
     }
   }
 }
